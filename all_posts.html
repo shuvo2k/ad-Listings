@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>AddBd</title>
+	<!-- styles -->
+	<link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/select2.min.css"> -->
+
+	<!-- <link rel="stylesheet" href="css/select2.min.css"> -->
+	<link rel="stylesheet" href="css/main3.css">
+	<link rel="stylesheet" href="css/details.css">
+	<style>
+
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="top-header">
+			<div class="container">
+				<div class="top-logo">
+					<img src="images/clasify.png" alt="">
+				</div>
+				<div class="top-buttons">
+					<a href="login.html"><button class="btn btn-success">লগইন</button></a>
+					<a href="register.html"><button class="btn btn-warning">রেজিস্টার</button></a>
+				</div>
+			</div>
+		</div>
+		<!-- ======================================= navigation ================================================-->
+		<section class="navigation">
+
+			<nav class="navbar navbar-expand-md fixed-top" id="navbar">
+
+				<div class="container">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link nvlink" href="index3.html">নীড় পাতা</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nvlink" href="all_posts.html">সকল অ্যড</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nvlink" href="all_posts.html">বাসা/মেস ভাড়া</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nvlink" href="all_posts.html">দৈনন্দিন সার্ভিস</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nvlink" href="online_work.html">অনলাইন কাজ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nvlink" href="#">প্রয়োজনীয় যোগাযোগ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nvlink" href="#">ভ্রমন</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link nvlink" href="blog.html">ব্লগ</a>
+							</li>
+						</ul>
+
+
+					</div>
+				</div>
+			</nav>
+
+
+
+		</section><!-- end section  -->
+		<!-- ==========================================end navigation========================================== -->
+		<!-- ======================================= search ================================================-->
+		<section class="search">
+
+
+
+			<form action="">
+				<div class="container form-container">
+					<div class="form-row">
+						<div class="col-md-3">
+
+							<select class="form-control form-control-lg js-example-basic-single1">
+
+								<option selected disabled>&#xf045; ক্যাটেগরি </option>
+								<option>Default select</option>
+								<option>Default select</option>
+								<option>Default select</option>
+							</select>
+						</div>
+						<div class="col-md-3">
+							<select class="form-control form-control-lg js-example-basic-single2" placeholder="select city">
+
+
+								<option selected disabled> <i class="fab fa-accusoft"></i> সাব-ক্যাটেগরি </option>
+								<option>Default select</option>
+								<option>Default select</option>
+							</select>
+						</div>
+						<div class="col-md-2">
+
+							<select class="form-control  form-control-lg js-example-basic-single3">
+
+								<option selected disabled>লোকেশন</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+						<div class="col-md-3">
+
+							<input type="text" class="form-control form-control-lg" id="inputEmail4" placeholder="লিখুন">
+						</div>
+						<div class="col-md-1">
+							<button class="btn btn-success">অনুসন্ধান</button>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+
+			</form>
+
+
+		</section>
+		<!-- ==========================================end search========================================== -->
+		<!-- add -->
+		<div class="container addvertise-banner">
+			<div class="row">
+				<img src="images/verticalad2.png" class="img-responsive mx-auto d-block" alt="">
+			</div>
+		</div>
+		<!-- ======================================= category ================================================-->
+		<section class="all-posts">
+			<div class="container">
+				<div class="row">
+					<!-- left sidebar sec -->
+					<div class="col-md-3 post-filter">
+						<div class="card">
+							<div class="card-header">
+								পোস্ট ফিল্টার
+							</div>
+							<div class="card-body">
+								<form>
+
+
+
+						 <div class="form-group">
+    <label for="exampleFormControlSelect1"><b>ক্যটেগরি</b></label>
+    <select class="form-control" id="exampleFormControlSelect1" name="state">
+      <option>ইলেকট্রনিক</option>
+      <option>বাসা</option>
+      <option>গাড়ি</option>
+      <option>মেস</option>
+      <option>হোম অ্যপ্লায়েন্স</option>
+    </select>
+  </div>
+
+	<div class="form-group">
+		<label for="exampleFormControlSelect2"><b>সাব ক্যটেগরি</b></label>
+		<select class="form-control" id="exampleFormControlSelect2" name="state">
+			<option>লাপটপ</option>
+			<option>মোবাইল</option>
+			<option>মহিলা মেস</option>
+			<option>ফ্লাট বাসা</option>
+			<option>বাসা ভাড়া</option>
+		</select>
+	</div>
+
+	<div class="form-group">
+		<label for="exampleFormControlSelect3"><b>বিভাগ</b></label>
+		<select class="form-control" id="exampleFormControlSelect3" name="state">
+			<option>ঢাকা</option>
+			<option>রাজশাহী</option>
+			<option>সিলেট</option>
+			<option>খুলনা</option>
+			<option>চিটাগং</option>
+		</select>
+	</div>
+
+	<div class="form-group">
+
+	<label for="exampleFormControlSelect4"><b>এলাকা</b></label>
+
+			<select class="form-control" id="exampleFormControlSelect4" name="state">
+				<option>মিরপুর</option>
+				<option>বসুন্ধরা</option>
+				<option>বাড্ডা</option>
+				<option>সাহেব বাজার</option>
+				<option>বিনোদপুর </option>
+					<option>স্টেশন</option>
+
+			</select>
+
+
+	</div>
+	<div class="form-group">
+<label for=""><b>টাকা</b></label>
+	<div class="row">	<div class="col-sm-6">
+			<input type="number" class="form-control" placeholder="মিনিমাম">
+		</div>
+	<div class="col-sm-6">
+		<input type="number" class="form-control" placeholder="মাক্সিমাম">
+	</div></div>
+</div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+							</div>
+						</div>
+					</div>
+					<!-- main sec -->
+					<div class="col-md-8 post-card">
+						<div class="card text-center">
+							<div class="card-header">
+								সকল বিজ্ঞাপন
+							</div>
+							<div class="card-body">
+								<!--
+								<div class="well">
+									<div class="media">
+										<a class="pull-left" href="#">
+											<img src="images/assusroglap.jpg" style="height:140px;width:200px;" class="float-right img-thumbnail" alt="...">
+
+										</a>
+										<div class="media-body">
+											<span class="amount"><b>5000</b></span>
+											<div class="content">
+												<h4 class="media-heading">ASUS ROG GL552VW 15.6" Full HD Gaming Laptop Intel Core I5</h4>
+
+												<p>Condition : New</p>
+
+											</div>
+											<ul class="upload-info">
+												<li class="date"><i class="fa fa-clock-o" aria-hidden="true"> </i> 1 week ago
+												</li> <span class="divider"> | </span>
+												<li class="place"><i class="fa fa-map-marker" aria-hidden="true"> </i> Elephant Road
+													, Dhaka</li><span class="divider"> | </span>
+												<li class="tag-ctg"><i class="fa fa-tag" aria-hidden="true"> </i> Air Conditioner ( AC )
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div> -->
+
+
+								<div class="card product-card" style="margin-bottom:25px;">
+									<div class="card-body">
+										<div class="row">
+											<div class="col-sm-3 product-img"> <img src="images/assusroglap.jpg" class="pull-left float-left img-thumbnail" alt=""></div>
+											<div class="col-sm-7 content">
+												<h4 class="media-heading">ASUS ROG GL552VW 15.6" Full HD Gaming Laptop Intel Core I5</h4>
+	<p>Posted By : John Doe</p>
+												<p>Condition : New</p>
+											</div>
+											<div class="col-sm-2 amount"><span>5000</span><div class="top-add"><img src="images/topadd.png" alt=""> <p>Top Add</p></div></div>
+
+
+										</div>
+										<ul class="upload-info">
+											<li class="date"><i class="fa fa-clock-o" aria-hidden="true"> </i> 1 week ago
+											</li>
+											<li class="place"><i class="fa fa-map-marker" aria-hidden="true"> </i> Elephant Road
+												, Dhaka</li>
+											<li class="tag-ctg"><i class="fa fa-tag" aria-hidden="true"> </i> Laptop
+											</li>
+										</ul>
+									</div>
+
+
+
+								</div>
+
+								<div class="card product-card" style="margin-bottom:25px;">
+									<div class="card-body">
+										<div class="row">
+											<div class="col-sm-3 product-img"> <img src="images/assusroglap.jpg" class="pull-left float-left img-thumbnail" alt=""></div>
+											<div class="col-sm-7 content">
+												<h4 class="media-heading">ASUS ROG GL552VW 15.6" Full HD Gaming Laptop Intel Core I5</h4>
+<p>Posted By : John Doe</p>
+												<p>Condition : New</p>
+											</div>
+											<div class="col-sm-2 amount"><span>5000</span><div class="top-add"><img src="images/topadd.png" alt=""> <p>Top Add</p></div></div>
+
+
+										</div>
+										<ul class="upload-info">
+											<li class="date"><i class="fa fa-clock-o" aria-hidden="true"> </i> 1 week ago
+											</li>
+											<li class="place"><i class="fa fa-map-marker" aria-hidden="true"> </i> Elephant Road
+												, Dhaka</li>
+											<li class="tag-ctg"><i class="fa fa-tag" aria-hidden="true"> </i> Laptop
+											</li>
+										</ul>
+									</div>
+
+
+
+								</div>
+
+
+								<div class="card product-card" style="margin-bottom:25px;">
+									<div class="card-body">
+										<div class="row">
+											<div class="col-sm-3 product-img"> <img src="images/assusroglap.jpg" class="pull-left float-left img-thumbnail" alt=""></div>
+											<div class="col-sm-7 content">
+												<h4 class="media-heading">ASUS ROG GL552VW 15.6" Full HD Gaming Laptop Intel Core I5</h4>
+<p>Posted By : John Doe</p>
+												<p>Condition : New</p>
+											</div>
+											<div class="col-sm-2 amount"><span>5000</span>
+<div class="top-add"><img src="images/topadd.png" alt=""> <p>Top Add</p></div>
+											</div>
+
+
+										</div>
+										<ul class="upload-info">
+											<li class="date"><i class="fa fa-clock-o" aria-hidden="true"> </i> 1 week ago
+											</li>
+											<li class="place"><i class="fa fa-map-marker" aria-hidden="true"> </i> Elephant Road
+												, Dhaka</li>
+											<li class="tag-ctg"><i class="fa fa-tag" aria-hidden="true"> </i> Laptop
+											</li>
+										</ul>
+									</div>
+
+
+
+								</div>
+
+
+
+								<div class="card" style="margin-bottom:25px;">
+									<div class="card-body" style="padding: 10px 25px;">
+										<div class="row" style="padding-bottom: 10px;">
+											<div class="col-sm-3 product-img"> <img src="images/assusroglap.jpg" class="pull-left float-left img-thumbnail" alt=""></div>
+											<div class="col-sm-7 content">
+												<h4 class="media-heading">ASUS ROG GL552VW 15.6" Full HD Gaming Laptop Intel Core I5</h4>
+<p>Posted By : John Doe</p>
+												<p>Condition : New</p>
+											</div>
+											<div class="col-sm-2 amount"><span>5000</span></div>
+
+
+										</div>
+										<ul class="upload-info" style="border-top:1px solid #d2d2d2;">
+											<li class="date"><i class="fa fa-clock-o" aria-hidden="true"> </i> 1 week ago
+											</li>
+											<li class="place"><i class="fa fa-map-marker" aria-hidden="true"> </i> Elephant Road
+												, Dhaka</li>
+											<li class="tag-ctg"><i class="fa fa-tag" aria-hidden="true"> </i> Laptop
+											</li>
+										</ul>
+									</div>
+
+
+
+								</div>
+
+
+
+							</div>
+							<div class="card-footer text-muted">
+								<!-- pagination -->
+								<nav aria-label="Page navigation example">
+									<ul class="pagination justify-content-center">
+										<li class="page-item disabled">
+											<a class="page-link" href="#" tabindex="-1" aria-disabled="true">পূর্ববর্তী</a>
+										</li>
+										<li class="page-item"><a class="page-link" href="#">১</a></li>
+										<li class="page-item"><a class="page-link" href="#">২</a></li>
+										<li class="page-item"><a class="page-link" href="#">৩</a></li>
+										<li class="page-item">
+											<a class="page-link" href="#">পরবর্তী</a>
+										</li>
+									</ul>
+								</nav>
+								<!-- pagination end -->
+							</div>
+						</div><!-- .card -->
+
+					</div>
+					<!-- main end -->
+					<!-- addvertise -->
+					<div class="col-md-1 allpost_side_add">
+						<img src="images/verticalad.png" alt="">
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<!-- ==========================================end category========================================== -->
+
+		<!-- ======================================= banner================================================-->
+		<section class="helpcall">
+			<div class="container">
+				<div class="row">
+
+					<h1>যেকোন সমস্যায় ডায়াল করুন - ০১৭৬২০৫২১২০ ।</h1>
+
+				</div>
+			</div>
+		</section>
+		<!-- ==========================================end navigation========================================== -->
+
+		<!-- ====================================== footer ================================================-->
+		<section class="footer-section">
+			<!--footer start-->
+			<div class="footer-wrap">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<h3>ABOUT Classify</h3>
+							<div class="footer-logo"><img src="http://hassandesigns.top/html/classified/images/footer-logo.png" alt=""></div>
+							<p>Integer ac lorem sit amet est rhoncus dapi bus don cad pede acus morbi elit nunc molestie at ultrices eu eleifen lorem ut dictum erat masa... <a href="about-us.html">Read More</a></p>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<h3>Quick LInks</h3>
+							<ul class="footer-links">
+								<li><a href="#.">Home</a></li>
+								<li><a href="#.">About Us</a></li>
+								<li><a href="#.">Features</a></li>
+								<li><a href="#.">Categories</a></li>
+								<li><a href="#.">Blog</a></li>
+								<li><a href="#.">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<h3>MAIN CATEGORIES</h3>
+							<ul class="footer-category">
+								<li><a href="#.">Electronics</a></li>
+								<li><a href="#.">Vahicles</a></li>
+								<li><a href="#.">Bikes</a></li>
+								<li><a href="#.">Animals</a></li>
+								<li><a href="#.">Toys</a></li>
+								<li><a href="#."> Furniture</a></li>
+								<li><a href="#.">Marketing</a></li>
+								<li><a href="#.">Technology</a></li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<h3>MAIN CATEGORIES</h3>
+							<div class="address">Lorem # 38, Ispum Hill, Lorem, WA 12345 </div>
+							<div class="info"><i class="fa fa-phone" aria-hidden="true"></i> <a href="#.">(777) 123 4567</a></div>
+							<div class="info"><i class="fa fa-fax" aria-hidden="true"></i> <a href="#.">(123) 456 7890</a></div>
+						</div>
+					</div>
+					<div class="copyright">Copyright © 2017 Classify - All Rights Reserved.</div>
+				</div>
+			</div>
+
+			<!--footer end-->
+
+
+
+		</section>
+		<!-- ==========================================end footer ========================================== -->
+
+	</div>
+
+	<!-- scripts -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/poper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<!-- <script src="js/select2.min.js"></script> -->
+	<!-- <script src="js/select2.min.js"></script> -->
+	<script src="js/main3.js"></script>
+
+
+
+</body>
+
+</html>

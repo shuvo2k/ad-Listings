@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AddBd</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/select2.min.css"> -->
+  <link rel="stylesheet" href="css/light-slider.css">
+  <link rel="stylesheet" href="css/main3.css">
+  <link rel="stylesheet" href="css/details.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="top-header">
+      <div class="container">
+        <div class="top-logo">
+          <img src="images/clasify.png" alt="">
+        </div>
+        <div class="top-buttons">
+          <a href="login.html"><button class="btn btn-success">লগইন</button></a>
+          <a href="register.html"><button class="btn btn-warning">রেজিস্টার</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- ======================================= navigation ================================================-->
+    <section class="navigation">
+      <nav class="navbar navbar-expand-md fixed-top" id="navbar">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link nvlink" href="index3.html">নীড় পাতা</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nvlink" href="all_posts.html">সকল অ্যড</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nvlink" href="all_posts.html">বাসা/মেস ভাড়া</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nvlink" href="all_posts.html">দৈনন্দিন সার্ভিস</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nvlink" href="all_posts.html">অনলাইন কাজ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nvlink" href="#">প্রয়োজনীয় যোগাযোগ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nvlink" href="#">ভ্রমন</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nvlink" href="blog.html">ব্লগ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section><!-- end section  -->
+    <!-- ==========================================end navigation========================================== -->
+
+    <section id="dashboard">
+      <div class="container user-dashboard">
+        <div class="row user-breadcrumb">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">হোম</a></li>
+              <li class="breadcrumb-item"><a href="#">ইউজার</a></li>
+              <li class="breadcrumb-item"><a href="#">ড্যাশবোর্ড</a></li>
+              <li class="breadcrumb-item active" aria-current="page">জন ডোহ</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="row">
+
+
+          <br><br>
+
+
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-header"></div>
+              <div class="card-body">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Post</a>
+                  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Post List</a>
+                  <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Online Work</a>
+                  <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Online Work List</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-9">
+
+            <div class="card">
+              <div class="card-header"></div>
+              <div class="card-body">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+                    <form action="">
+                      <div class="form-group">
+                        <label for="">Title</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Category</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Subcategory</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Location</label>
+                        <input type="text" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="">Price</label>
+                        <input type="text" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="">Textarea</label>
+                        <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                      </div>
+                      <button class="btn btn-success">Submit</button>
+                    </form>
+                  </div>
+                  <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+
+                                        <table class="table table-striped custab">
+                                          <thead>
+
+                                            <tr>
+                                              <th>ID</th>
+                                              <th>Title</th>
+                                              <th>Parent ID</th>
+                                              <th class="text-center">Action</th>
+                                            </tr>
+                                          </thead>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>News</td>
+                                            <td>News Cate</td>
+                                            <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                          </tr>
+                                          <tr>
+                                            <td>2</td>
+                                            <td>Products</td>
+                                            <td>Main Products</td>
+                                            <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                          </tr>
+                                          <tr>
+                                            <td>3</td>
+                                            <td>Blogs</td>
+                                            <td>Parent Blogs</td>
+                                            <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                          </tr>
+                                        </table>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <form action="">
+                      <div class="form-group">
+                        <label for="">Title</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Category</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Subcategory</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="">Location</label>
+                        <input type="text" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="">Price</label>
+                        <input type="text" class="form-control">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="">Textarea</label>
+                        <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                      </div>
+                      <button class="btn btn-success">Submit</button>
+                    </form>
+                  </div>
+
+                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+                    <table class="table table-striped custab">
+                      <thead>
+
+                        <tr>
+                          <th>ID</th>
+                          <th>Title</th>
+                          <th>Parent ID</th>
+                          <th class="text-center">Action</th>
+                        </tr>
+                      </thead>
+                      <tr>
+                        <td>1</td>
+                        <td>News</td>
+                        <td>News Cate</td>
+                        <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Products</td>
+                        <td>Main Products</td>
+                        <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Blogs</td>
+                        <td>Parent Blogs</td>
+                        <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- .col-9 -->
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- ====================================== footer ================================================-->
+    <section class="footer-section">
+      <!--footer start-->
+      <div class="footer-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <h3>ABOUT Classify</h3>
+              <div class="footer-logo"><img src="http://hassandesigns.top/html/classified/images/footer-logo.png" alt=""></div>
+              <p>Integer ac lorem sit amet est rhoncus dapi bus don cad pede acus morbi elit nunc molestie at ultrices eu eleifen lorem ut dictum erat masa... <a href="about-us.html">Read More</a></p>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <h3>Quick LInks</h3>
+              <ul class="footer-links">
+                <li><a href="#.">Home</a></li>
+                <li><a href="#.">About Us</a></li>
+                <li><a href="#.">Features</a></li>
+                <li><a href="#.">Categories</a></li>
+                <li><a href="#.">Blog</a></li>
+                <li><a href="#.">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h3>MAIN CATEGORIES</h3>
+              <ul class="footer-category">
+                <li><a href="#.">Electronics</a></li>
+                <li><a href="#.">Vahicles</a></li>
+                <li><a href="#.">Bikes</a></li>
+                <li><a href="#.">Animals</a></li>
+                <li><a href="#.">Toys</a></li>
+                <li><a href="#."> Furniture</a></li>
+                <li><a href="#.">Marketing</a></li>
+                <li><a href="#.">Technology</a></li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h3>MAIN CATEGORIES</h3>
+              <div class="address">Lorem # 38, Ispum Hill, Lorem, WA 12345 </div>
+              <div class="info"><i class="fa fa-phone" aria-hidden="true"></i> <a href="#.">(777) 123 4567</a></div>
+              <div class="info"><i class="fa fa-fax" aria-hidden="true"></i> <a href="#.">(123) 456 7890</a></div>
+            </div>
+          </div>
+          <div class="copyright">Copyright © 2017 Classify - All Rights Reserved.</div>
+        </div>
+      </div>
+      <!--footer end-->
+    </section>
+    <!-- ==========================================end footer ========================================== -->
+  </div>
+  <!-- scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/poper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/light-slider.js">
+  </script>
+  <!-- <script src="js/select2.min.js"></script> -->
+  <script src="js/main3.js"></script>
+</body>
+
+</html>

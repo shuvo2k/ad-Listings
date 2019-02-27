@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>AddBd</title>
+	<!-- styles -->
+	<link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/select2.min.css"> -->
+	<link rel="stylesheet" href="css/main3.css">
+	<style>
+
+
+	</style>
+</head>
+
+<body>
+
+
+	<div class="top-header">
+		<div class="container">
+			<div class="top-logo">
+				<img src="images/clasify.png" alt="">
+			</div>
+			<div class="top-buttons">
+				<a href="login.html"><button class="btn btn-success">লগইন</button></a>
+				<a href="register.html"><button class="btn btn-warning">রেজিস্টার</button></a>
+			</div>
+		</div>
+	</div>
+	<!-- ======================================= navigation ================================================-->
+	<section class="navigation">
+
+		
+		
+		
+		
+		<!-nav 2-->
+		
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link nvlink" href="index3.html">নীড় পাতা</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nvlink" href="all_posts.html">সকল অ্যড</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nvlink" href="all_posts.html">বাসা/মেস ভাড়া</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nvlink" href="all_posts.html">দৈনন্দিন সার্ভিস</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nvlink" href="online_work.html">অনলাইন কাজ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nvlink" href="#">প্রয়োজনীয় যোগাযোগ</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link nvlink" href="blog.html">ব্লগ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nvlink" href="user_dashboard.html"> ড্যাসবোর্ড</a>
+						</li>
+
+					</ul>
+   
+  </div>
+</nav>
+<!--end-->
+
+
+	</section><!-- end section  -->
+	<!-- ==========================================end navigation========================================== -->
+	<!-- ======================================= search ================================================-->
+	<section class="search">
+
+
+
+		<form action="">
+			<div class="container form-container">
+				<div class="form-row">
+					<div class="col-md-3">
+
+						<select class="form-control form-control-lg js-example-basic-single1">
+
+							<option selected disabled>&#xf045; ক্যাটেগরি </option>
+							<option>Default select</option>
+							<option>Default select</option>
+							<option>Default select</option>
+						</select>
+					</div>
+					<div class="col-md-3">
+						<select class="form-control form-control-lg js-example-basic-single2" placeholder="select city">
+
+
+							<option selected disabled> <i class="fab fa-accusoft"></i> সাব-ক্যাটেগরি </option>
+							<option>Default select</option>
+							<option>Default select</option>
+						</select>
+					</div>
+					<div class="col-md-2">
+
+						<select class="form-control  form-control-lg js-example-basic-single3">
+
+							<option selected disabled>লোকেশন</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+					<div class="col-md-3">
+
+						<input type="text" class="form-control form-control-lg" id="inputEmail4" placeholder="লিখুন">
+					</div>
+					<div class="col-md-1">
+						<button class="btn btn-success">অনুসন্ধান</button>
+
+					</div>
+
+				</div>
+
+
+			</div>
+
+
+		</form>
+
+
+	</section>
+	<!-- ==========================================end search========================================== -->
+	<!-- ======================================= category ================================================-->
+	<section class="post-categories">
+		<section id="cat-location" class="home-section">
+			<div class="container bg-white cat-loc-container">
+				<div class="row">
+					<div class="col-md-9">
+						<div class="cat-list-wrapper">
+							<h3 class="cat-title">টপ ক্যাটেগরি
+							</h3>
+							<br><br>
+							<div class="row">
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><i style="color:#485eb7;" class="fa fa-laptop"></i></a>
+										</div>
+										<a class="cat-box-title" href="">ইলেকট্রনিকস
+											<span class="count">(1180)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><i style="color:#268610;" class="fa fa-car" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">গাড়ি
+											<span class="count">(229)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#771313;" class="fa fa-home" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">প্রপার্টি
+											<span class="count">(102)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#ff8210;" class="fa fa-coffee" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">হোম অ্যাপ্লায়েন্স
+											<span class="count">(243)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#7d0fa7;" class="fa fa-hotel" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">মেস
+											<span class="count">(211)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#ff0095;" class="fa fa-bath" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">স্বাথ্য এবং সৈান্দর্য
+											<span class="count">(283)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#7200ff;" class="fa fa-tv" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">ইলেেকট্টিক
+											<span class="count">(28)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#6c6a6d;" class="fa fa-futbol-o" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">খেলাধুলা
+											<span class="count">(54)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#72cc3e;" class="fa fa-life-ring" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">সার্ভিস
+											<span class="count">(131)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#0297a0;" class="fa fa-suitcase" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">চাকরি
+											<span class="count">(42)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#21bfdc;" class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">শিক্ষা
+											<span class="count">(32)</span></a>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-4 col-6">
+									<div class="cat-box text-center">
+										<div class="icon"><a href=""><i style="color:#dc6921;" class="fa fa-industry" aria-hidden="true"></i></a>
+										</div>
+										<a class="cat-box-title" href="">ব্যাবসা
+											<span class="count">(12)</span></a>
+									</div>
+
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="city-list-wrapper">
+							<h3 class="cat-title">পপুলার শহর
+							</h3>
+
+							<ul class="home-city-list">
+								<li>
+									<a href=""><i class="fa fa-map-marker" style="color:green;margin-right:4px;"> </i> ঢাকা
+										(১২২৬)</a>
+								</li>
+								<li>
+									<a href=""><i class="fa fa-map-marker" style="color:green;margin-right:4px;"> </i> চিটাগং
+										(৪৩৩)</a>
+								</li>
+								<li>
+									<a href=""><i class="fa fa-map-marker" style="color:green;margin-right:4px;"> </i> সিলেট
+										(১৪৩)</a>
+								</li>
+								<li>
+									<a href=""><i class="fa fa-map-marker" style="color:green;margin-right:4px;"> </i> খুলনা
+										(৩২৩)</a>
+								</li>
+								<li>
+									<a href=""><i class="fa fa-map-marker" style="color:green;margin-right:4px;"> </i> বরিশাল
+										(৩৪)</a>
+								</li>
+								<li>
+									<a href=""><i class="fa fa-map-marker" style="color:green;margin-right:4px;"> </i> রাজশাহী
+										(২৩8)</a>
+								</li>
+								<li>
+									<a href=""><i class="fa fa-map-marker" style="color:green;margin-right:4px;"> </i> রংপুর
+										(১৩)</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+
+				</div> <br><br>
+			</div>
+		</section>
+	</section>
+	<!-- ==========================================end category========================================== -->
+	<!-- ======================================= posts ================================================-->
+	<section class="all-posts">
+
+		<!-- first cat post -->
+		<div class="container featured-posts " id="featured-posts-container">
+			<div class="post-heading">
+				<h3 class="">বাড়ি / মেস ভাড়া
+				</h3>
+				<p>খুজে নিন আপনার পছন্দের থাকার জায়গা / বিজ্ঞাপন দিন </p>
+			</div>
+			<br>
+			<!-- details card section starts from here -->
+			<section class="details-card">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<a href="details.html">
+								<div class="card-content">
+									<div class="card-img">
+										<img src="images/rj1.jpeg" alt="">
+										<span>
+											<h4>৫০০/-</h4>
+										</span>
+									</div>
+									<div class="card-desc">
+										<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+										<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+										<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+										<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+										<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+										</p> <!-- <a href="#" class="btn-card">Read</a> -->
+									</div>
+									<div class="card-footer">
+										<div>
+											<li class="rating"> <span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span>3/5 (32)</span></li>
+
+											<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+											</li>
+
+										</div>
+									</div>
+								</div>
+							</a>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<a href="details.html">
+								<div class="card-content">
+									<div class="card-img">
+										<img src="images/rj1.jpeg" alt="">
+										<span>
+											<h4>৫০০/-</h4>
+										</span>
+									</div>
+									<div class="card-desc">
+										<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+										<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+										<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+										<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+										<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+										</p> <!-- <a href="#" class="btn-card">Read</a> -->
+									</div>
+									<div class="card-footer">
+										<div>
+											<li class="rating"> <span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span>3/5 (32)</span></li>
+
+											<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+											</li>
+
+										</div>
+									</div>
+								</div>
+							</a>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<a href="details.html">
+								<div class="card-content">
+									<div class="card-img">
+										<img src="images/rj1.jpeg" alt="">
+										<span>
+											<h4>৫০০/-</h4>
+										</span>
+									</div>
+									<div class="card-desc">
+										<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+										<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+										<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+										<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+										<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+										</p> <!-- <a href="#" class="btn-card">Read</a> -->
+									</div>
+									<div class="card-footer">
+										<div>
+											<li class="rating"> <span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span>3/5 (32)</span></li>
+
+											<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+											</li>
+
+										</div>
+									</div>
+								</div>
+							</a>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<a href="details.html">
+								<div class="card-content">
+									<div class="card-img">
+										<img src="images/rj1.jpeg" alt="">
+										<span>
+											<h4>৫০০/-</h4>
+										</span>
+									</div>
+									<div class="card-desc">
+										<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+										<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+										<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+										<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+										<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+										</p> <!-- <a href="#" class="btn-card">Read</a> -->
+									</div>
+									<div class="card-footer">
+										<div>
+											<li class="rating"> <span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span>3/5 (32)</span></li>
+
+											<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+											</li>
+
+										</div>
+									</div>
+								</div>
+							</a>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<a href="details.html">
+								<div class="card-content">
+									<div class="card-img">
+										<img src="images/rj1.jpeg" alt="">
+										<span>
+											<h4>৫০০/-</h4>
+										</span>
+									</div>
+									<div class="card-desc">
+										<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+										<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+										<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+										<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+										<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+										</p> <!-- <a href="#" class="btn-card">Read</a> -->
+									</div>
+									<div class="card-footer">
+										<div>
+											<li class="rating"> <span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span>3/5 (32)</span></li>
+
+											<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+											</li>
+
+										</div>
+									</div>
+								</div>
+							</a>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<a href="details.html">
+								<div class="card-content">
+									<div class="card-img">
+										<img src="images/rj1.jpeg" alt="">
+										<span>
+											<h4>৫০০/-</h4>
+										</span>
+									</div>
+									<div class="card-desc">
+										<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+										<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+										<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+										<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+										<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+										</p> <!-- <a href="#" class="btn-card">Read</a> -->
+									</div>
+									<div class="card-footer">
+										<div>
+											<li class="rating"> <span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span>3/5 (32)</span></li>
+
+											<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+											</li>
+
+										</div>
+									</div>
+								</div>
+							</a>
+						</div><!-- SINGLE POST -->
+						<div class="catpost-button">
+							<button class="btn btn-success">এ বিষয়ে সকল বিজ্ঞাপন</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- details card section starts from here -->
+
+
+
+
+
+
+
+		</div>
+		<!-- sencond cat post -->
+		<div class="container featured-posts " id="featured-posts-container">
+			<div class="post-heading">
+				<h3 class=""> দৈনন্দিন সার্ভিস
+				</h3>
+				<p>খুজে নিন আপনার প্রয়োজনীয় সেব / বিজ্ঞাপন দিনা</p>
+			</div>
+			<br>
+			<!-- details card section starts from here -->
+			<section class="details-card">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/ds2.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/ds2.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/ds2.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/ds2.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/ds2.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/ds2.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="catpost-button">
+							<button class="btn btn-success">এ বিষয়ে সকল বিজ্ঞাপন</button>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- details card section starts from here -->
+
+
+
+
+
+
+
+		</div>
+		<!-- third cat post -->
+		<div class="container featured-posts " id="featured-posts-container">
+			<div class="post-heading">
+				<h3 class="">অনলাইন কাজ
+				</h3>
+				<p>খুজে নিন আপনার পছন্দের ডেভলপার / বিজ্ঞাপন দিন </p>
+			</div>
+			<br>
+			<!-- details card section starts from here -->
+			<section class="details-card">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/d3.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/d3.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/d3.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/d3.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/d3.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="col-md-4">
+							<div class="card-content">
+								<div class="card-img">
+									<img src="images/d3.jpg" alt="">
+									<span>
+										<h4>৫০০/-</h4>
+									</span>
+								</div>
+								<div class="card-desc">
+									<h3>১০১৯ স্কয়ার ফিট ফ্লাট, সাহেব বাজার (৩ বেড, অ্যাপার্টমেন্ট)</h3>
+									<p><b> <i style="color:red;" class="fa fa-battery-three-quarters"> </i> কন্ডিশন : </b> নতুন</p>
+									<!-- <p><b>Beds : </b> 3  <b>Baths : </b>3 <b>Size : </b> +/-1250sqft</p> -->
+									<p><b><i style="color:green;" class="fa fa-map-marker" style="color:#00C9A7;margin-right:4px;"> </i> লোকেশন : </b> রাজশাহী</p>
+									<p><b><i style="color:#217f96;" class="fa fa-tag"> </i> ক্যাটেগরি : </b> ফ্লাট
+									</p> <!-- <a href="#" class="btn-card">Read</a> -->
+								</div>
+								<div class="card-footer">
+									<div>
+										<li class="rating"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span>3/5 (32)</span></li>
+
+										<li class="date"><i style="color:#057514;" class="fa fa-clock-o" aria-hidden="true"> </i> ৩ সপ্তাহ আগে
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div><!-- SINGLE POST -->
+						<div class="catpost-button">
+							<button class="btn btn-success">এ বিষয়ে সকল বিজ্ঞাপন</button>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- details card section starts from here -->
+
+
+
+
+
+
+
+		</div>
+
+
+
+
+
+	</section>
+	<!-- ==========================================end posts========================================== -->
+	<!-- ======================================= sec 1 ================================================-->
+
+	<section class=""></section>
+	<!-- ========================================== sec1 end========================================== -->
+	<!-- ======================================= banner================================================-->
+	<section class="helpcall">
+		<div class="container">
+			<div class="row">
+
+				<h1>যেকোন সমস্যায় ডায়াল করুন - ০১৭৬২০৫২১২০ ।</h1>
+
+			</div>
+		</div>
+	</section>
+	<!-- ==========================================end navigation========================================== -->
+
+	<!-- ====================================== footer ================================================-->
+	<section class="footer-section">
+		<!--footer start-->
+		<div class="footer-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-6">
+						<h3>ABOUT Classify</h3>
+						<div class="footer-logo"><img src="http://hassandesigns.top/html/classified/images/footer-logo.png" alt=""></div>
+						<p>Integer ac lorem sit amet est rhoncus dapi bus don cad pede acus morbi elit nunc molestie at ultrices eu eleifen lorem ut dictum erat masa... <a href="about-us.html">Read More</a></p>
+					</div>
+					<div class="col-md-2 col-sm-6">
+						<h3>Quick LInks</h3>
+						<ul class="footer-links">
+							<li><a href="#.">Home</a></li>
+							<li><a href="#.">About Us</a></li>
+							<li><a href="#.">Features</a></li>
+							<li><a href="#.">Categories</a></li>
+							<li><a href="#.">Blog</a></li>
+							<li><a href="#.">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<h3>MAIN CATEGORIES</h3>
+						<ul class="footer-category">
+							<li><a href="#.">Electronics</a></li>
+							<li><a href="#.">Vahicles</a></li>
+							<li><a href="#.">Bikes</a></li>
+							<li><a href="#.">Animals</a></li>
+							<li><a href="#.">Toys</a></li>
+							<li><a href="#."> Furniture</a></li>
+							<li><a href="#.">Marketing</a></li>
+							<li><a href="#.">Technology</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<h3>MAIN CATEGORIES</h3>
+						<div class="address">Lorem # 38, Ispum Hill, Lorem, WA 12345 </div>
+						<div class="info"><i class="fa fa-phone" aria-hidden="true"></i> <a href="#.">(777) 123 4567</a></div>
+						<div class="info"><i class="fa fa-fax" aria-hidden="true"></i> <a href="#.">(123) 456 7890</a></div>
+					</div>
+				</div>
+				<div class="copyright">Copyright © 2017 Classify - All Rights Reserved.</div>
+			</div>
+		</div>
+
+		<!--footer end-->
+
+
+
+	</section>
+	<!-- ==========================================end footer ========================================== -->
+
+	</div>
+
+	<!-- scripts -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/poper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- <script src="js/select2.min.js"></script> -->
+	<script src="js/main3.js"></script>
+	<script>
+
+
+	</script>
+</body>
+
+</html>
